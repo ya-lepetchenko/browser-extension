@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DTMF Dialer</title>
+    <style>
+        .button {
+            padding: 10px;
+            margin: 5px;
+            font-size: 20px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1>DTMF Dialer</h1>
+    <div>
+        <button class="button" onclick="playDTMFTone('1')">1</button>
+        <button class="button" onclick="playDTMFTone('2')">2</button>
+        <button class="button" onclick="playDTMFTone('3')">3</button>
+    </div>
+    <div>
+        <button class="button" onclick="playDTMFTone('4')">4</button>
+        <button class="button" onclick="playDTMFTone('5')">5</button>
+        <button class="button" onclick="playDTMFTone('6')">6</button>
+    </div>
+    <div>
+        <button class="button" onclick="playDTMFTone('7')">7</button>
+        <button class="button" onclick="playDTMFTone('8')">8</button>
+        <button class="button" onclick="playDTMFTone('9')">9</button>
+    </div>
+    <div>
+        <button class="button" onclick="playDTMFTone('*')">*</button>
+        <button class="button" onclick="playDTMFTone('0')">0</button>
+        <button class="button" onclick="playDTMFTone('#')">#</button>
+    </div>
+
+    <!-- <script>
+        function playDTMFTone(digit) {
+            // Create an audio element for the DTMF tone
+            var audioElement = document.createElement('audio');
+            audioElement.setAttribute('src', 'https://www.telephonetribute.com/dtmf/tones/' + digit + '.wav');
+            // Play the DTMF tone
+            audioElement.play();
+        }
+    </script> -->
+    <script src="script.js"></script>
+</body>
+</html>
