@@ -1,0 +1,6 @@
+{
+    "domain" : "https://dev-cabinet.onevoiplanet.ua/",
+    "register-link" : "https://dev-cabinet.onevoiplanet.ua/registration",
+    "auth-link" : "https://dev-cabinet.onevoiplanet.ua/auth",
+    "google-auth-link" : "https://dev-cabinet.onevoiplanet.ua/api/connect/google"
+}

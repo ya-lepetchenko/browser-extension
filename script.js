@@ -1,9 +1,7 @@
-console.log('script is set')
-
 const regex = /^\d+$/;
 
 let inputBox = document.getElementById("input-itself")
-console.log(inputBox.value)
+console.log(inputBox)
 inputBox.addEventListener(
     'input',
     (event) => {
@@ -12,4 +10,4 @@ inputBox.addEventListener(
         event.target.value = '';
         }
     }
- );
+);
