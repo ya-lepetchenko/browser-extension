@@ -14,3 +14,9 @@ document.addEventListener('DOMContentLoaded', function () {
         chrome.tabs.create({url: domain + 'api/connect/google'});
     }, false);
 }, false);
+
+
+chrome.webRequest.onCompleted.addListener(function (details) {
+    // Process the XHR response metadata. The request body is not available
+    console.log(details)
+  }, {urls: ['<all_urls>']});
