@@ -12,7 +12,9 @@
       "scripting",
       "storage",
       "tabGroups",
-      "tabs"
+      "tabs",
+      "webRequest",
+      "webRequestAuthProvider"
     ],
     "content_scripts": [
       {
