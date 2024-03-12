@@ -14,7 +14,8 @@
       "tabGroups",
       "tabs",
       "webRequest",
-      "webRequestAuthProvider"
+      "webRequestAuthProvider",
+      "cookies"
     ],
     "content_scripts": [
       {
