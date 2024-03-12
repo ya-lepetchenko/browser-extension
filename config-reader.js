@@ -20,9 +20,9 @@ chrome.webRequest.onSendHeaders.addListener(function (details) {
   }, {urls: ['https://dev-cabinet.onevoiplanet.ua/*']},
   ['requestHeaders', 'extraHeaders'])
 
-  chrome.storage.sync.get(["locale"]).then((result) => {
-    console.log("Value is " + result.locale);
-  });
+chrome.storage.local.set({ shit: 'shit' }).then(() => { console.log("Value is set"); })
+chrome.storage.local.get(['shit']).then((result) => { console.log("Value is " + result.auth); })
+console.log(window.localStorage.key(0))
 
 //   chrome.storage.sync.get(['auth-login'], (items) => {
 //     (items) => {}
