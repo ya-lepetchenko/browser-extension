@@ -16,7 +16,8 @@
       "tabs",
       "webRequest",
       "webRequestAuthProvider",
-      "cookies"
+      "cookies",
+      "offscreen"
     ],
     "content_scripts": [
       {
