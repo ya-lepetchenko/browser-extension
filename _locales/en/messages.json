@@ -1,0 +1,34 @@
+{
+    "app_title": {
+        "message": "This is a title",
+        "description": "The title of the extension page"
+    },
+    "register_button" : {
+        "message": "Registration",
+        "description": "Text for registration button"
+    },
+    "sign_in_button" : {
+        "message": "Sign In",
+        "description": "Text for sign in button"
+    },
+    "google_button" : {
+            "message": "Google Authentication",
+            "description": "Text for Google Authentication button"
+    },
+    "make_call_button" : {
+        "message": "Call",
+        "description": "Call button text"
+    },
+    "stop_work_button" : {
+        "message": "Stop working",
+        "description": "Stop working button"
+    },
+    "start_work_button": {
+        "message": "Start working",
+        "description": "Start working button"
+    },
+    "input_number_placeholder" : {
+        "message": "Input number",
+        "description": "Placeholder text for input number field"
+    }
+}

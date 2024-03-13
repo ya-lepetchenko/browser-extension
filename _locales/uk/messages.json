@@ -1,0 +1,34 @@
+{
+    "app_title": {
+        "message": "Заголовок головної сторінки",
+        "description": "Опис заголовка головної сторінки"
+    },
+    "register_button" : {
+        "message": "Реєстрація",
+        "description": "Текст для кнопки реєстрації"
+    },
+    "sign_in_button" : {
+        "message": "Увійти",
+        "description": "Текст для кнопки авторизації"
+    },
+    "google_button" : {
+            "message": "Google Автентифікація",
+            "description": "Текст для кнопки автентифікації через Google"
+    },
+    "make_call_button" : {
+        "message": "Дзвінок",
+        "description": "Текст для кнопки дзвінка"
+    },
+    "stop_work_button" : {
+        "message": "Припинити роботу",
+        "description": "Текст для кнопки припинення роботи"
+    },
+    "start_work_button": {
+        "message": "Почати роботу",
+        "description": "Текст для кнопки початку роботи"
+    },
+    "input_number_placeholder" : {
+        "message": "Введіть номер",
+        "description": "Плейсхолдер для поля вводу номера"
+    }
+}

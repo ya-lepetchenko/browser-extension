@@ -3,7 +3,7 @@
     "name": "OVP extension caller 2.0!",
     "description": "Make calls from browser with OVP telephony",
     "version": "1.0",
-    "default_locale": "ua",
+    "default_locale": "uk",
     "action": {
       "default_popup": "index3.html"
     },

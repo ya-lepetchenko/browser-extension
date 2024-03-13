@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles2.css">
-    <title data-i18n-key="app title">OVP extention</title>
+    <title id="app-title">OVP extention</title>
 </head>
 <body>
     <div class="phone-base">
@@ -41,22 +41,22 @@
                         <button class="button" onclick="playDTMFTone('#')">#</button>
                     </div>
                     <div>
-                        <button id="call-button" data-i18n-key="call-button" class="button" type="submit" onclick="">Make call</button>
+                        <button id="call-button" data-i18n-key="call-button" class="button" type="submit" onclick=""><span id="make-call-button">Make call</span></button>
                     </div>
                     <div class="stop-work-button">
-                        <button id="stop-button" data-i18n-key="stop-work-button" class="button" type="submit" onclick="">Stop work</button>
+                        <button id="stop-button" data-i18n-key="stop-work-button" class="button" type="submit" onclick=""><span id="stop-work-button">Stop work</span></button>
                     </div>
                     <div class="start-work-button">
-                        <button id="stop-button" data-i18n-key="start-work-button" class="button" type="submit" onclick="">Start work</button>
+                        <button id="stop-button" data-i18n-key="start-work-button" class="button" type="submit" onclick=""><span id="start-work-button">Start work</span></button>
                     </div>
                     <div class="register-button-box">
-                        <div class="register-button"><a class="register-link" href=""><span data-i18n-key="register-link">Register</span></a></div>
+                        <div class="register-button"><a class="register-link" href=""><span id="register-link-text">Register</span></a></div>
                     </div>
                     <div class="sign-in-button-box">
-                        <div class="sign-in-button"><a class="sign-in-link" href=""><span data-i18n-key="sign-in-link">Sign In By Email</span></a></div>
+                        <div class="sign-in-button"><a class="sign-in-link" href=""><span id="sign-in-link-text">Sign In By Email</span></a></div>
                     </div>
                     <div class="google-auth-button-box">
-                        <div class="google-auth-button"><a class="google-auth-link" href=""><span data-i18n-key="google-link">Sign In With Google</span></a></div>
+                        <div class="google-auth-button"><a class="google-auth-link" href=""><span id="google-link-text">Sign In With Google</span></a></div>
                     </div>
                 </form>
             </div>
@@ -65,5 +65,6 @@
     <script src="script.js"></script>
     <script src="jsSIp.js"></script>
     <script src="config-reader.js"></script>
+    <script src="local.js"></script>
 </body>
 </html>
